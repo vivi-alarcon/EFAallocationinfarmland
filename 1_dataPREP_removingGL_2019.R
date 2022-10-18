@@ -229,7 +229,7 @@ nrow(inv6)
 nrow(inv7)
 summary(inv7)
 
-# natura 2000! -> if the field is in a natura 2000 area???¿¿
+# natura 2000! -> if the field is in a natura 2000 area???Â¿Â¿
 
 natura<-st_read("D:/bestma (vs-grp01.zih.tu-dresden.de) (Y)/Vivi/data_encrypted/Regional_context/natura_2000/Natura2000_saxony.shp") %>%
   st_transform(cs, crs = 3035)
